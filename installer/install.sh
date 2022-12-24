@@ -34,6 +34,13 @@ curl -sLo "$install/real.sh" https://raw.githubusercontent.com/Eyesonjune18/Ally
 curl -sLo "$install/dual.sh" https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/dual.sh
 curl -sLo "$install/rebash.sh" https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/rebash.sh
 
+echo "Setting up permissions for script files"
+chmod +x "$install/mkal.sh"
+chmod +x "$install/scral.sh"
+chmod +x "$install/real.sh"
+chmod +x "$install/dual.sh"
+chmod +x "$install/rebash.sh"
+
 echo "Creating alias configuration files"
 curl -sLo "$HOME/.bash_aliases_persistent" https://raw.githubusercontent.com/Eyesonjune18/Ally/main/installer/.bash_aliases_persistent
 cp "$HOME/.bash_aliases_persistent" "$HOME/.bash_aliases"
