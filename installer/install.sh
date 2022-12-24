@@ -35,7 +35,7 @@ curl -Lo "$install/" https://raw.githubusercontent.com/Eyesonjune18/Ally/main/sr
 curl -Lo "$install/" https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/rebash.sh
 
 echo "Creating alias configuration files"
-curl -LJO https://raw.githubusercontent.com/Eyesonjune18/Ally/main/installer/.bash_aliases_persistent -o "$HOME/.bash_aliases_persistent"
+curl -Lo "$HOME/.bash_aliases_persistent" https://raw.githubusercontent.com/Eyesonjune18/Ally/main/installer/.bash_aliases_persistent
 cp "$HOME/.bash_aliases_persistent" "$HOME/.bash_aliases"
 
 echo "Ally has been installed successfully. Please restart your terminal or type \"source ~/.bashrc\" to apply changes."
