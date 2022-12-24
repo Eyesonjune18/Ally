@@ -25,14 +25,14 @@ echo "Creating folder for installation at ~/.local/bin/ally"
 mkdir ~/.local/bin
 mkdir ~/.local/bin/ally
 
-install="$HOME/.local/bin/ally"
+install="$HOME/.local/bin/ally/"
 
 echo "Downloading script files to install folder"
-curl -LJO https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/mkal.sh -o "$install/mkal.sh"
-curl -LJO https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/scral.sh -o "$install/scral.sh"
-curl -LJO https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/real.sh -o "$install/real.sh"
-curl -LJO https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/dual.sh -o "$install/dual.sh"
-curl -LJO https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/rebash.sh -o "$install/rebash.sh"
+curl -Lo $install https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/mkal.sh
+curl -Lo $install https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/scral.sh
+curl -Lo $install https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/real.sh
+curl -Lo $install https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/dual.sh
+curl -Lo $install https://raw.githubusercontent.com/Eyesonjune18/Ally/main/src/rebash.sh
 
 echo "Creating alias configuration files"
 curl -LJO https://raw.githubusercontent.com/Eyesonjune18/Ally/main/installer/.bash_aliases_persistent -o "$HOME/.bash_aliases_persistent"
