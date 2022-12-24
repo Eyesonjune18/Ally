@@ -24,3 +24,26 @@ source ~/.bashrc
 ```
 
 You can then delete the installer script if you would like.
+
+## Explanation & Usage
+Ally contains five basic commands.
+
+### scral
+scral stands for "Script Alias." It adds a shell script alias to .bash_aliases.
+Usage: `scral \<name of script without .sh extension\>`
+
+### mkal
+mkal stands for "Make Alias." It adds any executable file to .bash_aliases.
+Usage: `mkal \<name of any executable file\>`
+
+### real
+real stands for "Reset Aliases." It resets the aliases in .bash_aliases by reverting to those in .bash_aliases_persistent.
+Usage: `real`
+
+### dual
+dual stands for "Dump Aliases." It saves the aliases in .bash_aliases by adding them to .bash_aliases_persistent.
+Usage: `dual`
+
+### rebash
+rebash stands for "Reload Bash." It reverts working aliases to those in .bash_aliases, and reloads the terminal to apply changes.
+Usage: `rebash`
