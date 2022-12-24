@@ -1,5 +1,5 @@
 # Ally
-A set of simple scripts for creating and managing persistent Bash aliases. Turns executables of all types into commands that can be used anywhere.
+Ally is a set of simple scripts for creating and managing persistent Bash aliases. It can turn executables of all types into commands that can be used anywhere.
 
 ## Installation
 Installation can be done with just 4 commands.
@@ -10,9 +10,11 @@ First, download the installer script:
 
 This will download the script into your current working directory.
 
+
 You may need to add permissions to the script in order to run it:
 
 `chmod +x install.sh`
+
 
 Run the script:
 
@@ -20,9 +22,11 @@ Run the script:
 
 This will download all necessary files into their correct places.
 
+
 Finally, to use Ally, you can either reload your terminal by reopening it, or by typing:
 
 `source ~/.bashrc`
+
 
 Put together, this (should) be able to be installed in a simple copy-paste.
 ```
