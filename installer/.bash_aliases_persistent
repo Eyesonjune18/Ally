@@ -1,0 +1,5 @@
+alias mkal='source ~/Documents/Coding/Scripts/mkal.sh'
+alias scral='source ~/Documents/Coding/Scripts/scral.sh'
+alias real='source ~/Documents/Coding/Scripts/real.sh'
+alias dual='source ~/Documents/Coding/Scripts/dual.sh'
+alias rebash='source ~/Documents/Coding/Scripts/rebash.sh'
