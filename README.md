@@ -23,7 +23,7 @@ chmod +x install.sh
 source ~/.bashrc
 ```
 
-You can then delete the installer script if you would like.
+The installer script will delete itself automatically when the installation finishes.
 
 ## Explanation & Usage
 Ally contains five basic commands.

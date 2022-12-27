@@ -46,3 +46,5 @@ curl -sLo "$HOME/.bash_aliases_persistent" https://raw.githubusercontent.com/Eye
 cp "$HOME/.bash_aliases_persistent" "$HOME/.bash_aliases"
 
 echo "Ally has been installed successfully. Please restart your terminal or type \"source ~/.bashrc\" to apply changes."
+
+shred -u "$0"
