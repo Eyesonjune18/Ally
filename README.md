@@ -33,7 +33,7 @@ scral stands for "Script Alias." It adds a shell script alias to .bash_aliases.
 Usage: `scral <name of script without .sh extension>`
 
 ### mkal
-mkal stands for "Make Alias." It adds any executable file to .bash_aliases.  
+mkal stands for "Make Alias." It adds an alias for any executable file to .bash_aliases. It will also remove the executable's extension if applicable.  
 Usage: `mkal <name of any executable file>`
 
 ### real
