@@ -11,7 +11,8 @@ workingdir=$(pwd)
 if [ $# -eq 0 ]
 then
     echo "Usage: mkal <executable filename>"
-    exit 1
+    # Return is used instead of exit because the script is sourced
+    return 1
 fi
 
 # Set the filename variable to the first argument
