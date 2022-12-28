@@ -19,7 +19,7 @@ fi
 exename=$1
 withdotslash="./$exename"
 
-# Make a friendly name for the alias by removing the fil extension
+# Make a friendly name for the alias by removing the file extension
 noextension="${exename%.*}"
 
 if test -f $exename; then
