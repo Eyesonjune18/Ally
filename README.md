@@ -26,11 +26,7 @@ source ~/.bashrc
 The installer script will delete itself automatically when the installation finishes.
 
 ## Explanation & Usage
-Ally contains five basic commands.
-
-### scral
-scral stands for "Script Alias." It adds a shell script alias to .bash_aliases.  
-Usage: `scral <name of script without .sh extension>`
+Ally contains four basic commands.
 
 ### mkal
 mkal stands for "Make Alias." It adds an alias for any executable file to .bash_aliases. It will also remove the executable's extension if applicable.  
