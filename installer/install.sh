@@ -22,8 +22,8 @@ while true; do
 done
 
 echo "Creating folder for installation at ~/.local/bin/ally"
-mkdir ~/.local/bin
-mkdir ~/.local/bin/ally
+mkdir -p ~/.local/bin
+mkdir -p ~/.local/bin/ally
 
 install="$HOME/.local/bin/ally"
 
