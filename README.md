@@ -5,7 +5,7 @@ Ally is a set of simple scripts for creating and managing persistent Bash aliase
 Installation can be done with just 4 commands.
 
 First, download the installer script:  
-`curl -LJO https://raw.githubusercontent.com/Eyesonjune18/Ally/main/installer/install.sh`  
+`curl -LJO https://raw.githubusercontent.com/Eyesonjune18/ally/main/installer/install.sh`  
 This will download the script into your current working directory.
 
 You may need to add permissions to the script in order to run it: `chmod +x install.sh`
