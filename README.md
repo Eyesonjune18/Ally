@@ -17,7 +17,7 @@ Finally, to use Ally, you can either reload your terminal by reopening it, or by
 
 Put together, this (should) be able to be installed in a simple copy-paste.
 ```
-curl -sLJO https://raw.githubusercontent.com/Eyesonjune18/Ally/main/installer/install.sh
+curl -sLJO https://raw.githubusercontent.com/Eyesonjune18/ally/main/installer/install.sh
 chmod +x install.sh
 ./install.sh
 source ~/.bashrc
